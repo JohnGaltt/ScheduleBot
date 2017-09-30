@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BotDataModelStoreContainer" CdmEntityContainer="BotDataEntities1">
+    <EntitySetMapping Name="Tables">
+      <EntityTypeMapping TypeName="BotDataModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="TimeOfMeeting" ColumnName="TimeOfMeeting" />
+          <ScalarProperty Name="TitleOfMeeting" ColumnName="TitleOfMeeting" />
+          <ScalarProperty Name="create" ColumnName="create" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
