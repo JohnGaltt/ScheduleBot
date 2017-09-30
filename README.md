@@ -1,2 +1,6 @@
 # ScheduleBot
-It is a bot for arranging your meetings in easy manner
+
+It is a simple - test - bot for arranging your simple kinds for meetings(temporarily)
+
+
+
